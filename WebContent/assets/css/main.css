@@ -1,0 +1,73 @@
+body {
+	/* font-family: Century Gothic;#4072b4 */
+	font-family:fantasy;	
+	background-color: white ;
+	background-image: url("../images/n1.jpg");
+	background-repeat: repeat-x;
+	
+}
+
+#header {
+	color: rgba(249,249,249,1);
+	font-size: 35pt;
+	letter-spacing: 5pt;
+}
+
+#wrapper {
+	text-align: center;
+}
+
+#content {
+	display: inline-block;
+	text-align: left;
+	line-height: 25pt;
+/* 	height: 100%; */
+	width: 30%;
+}
+
+#sname, #password {
+	width: 100%;
+	border: 1px solid gray;
+	padding-left: 3pt;
+	font-size: 12pt;
+}
+
+
+#birthdate {
+	border: 1px solid gray;
+	padding-left: 3pt;
+}
+ 
+#btn-create-account,#btnlogin {
+	width: 50%;
+	height: 25pt;
+}
+
+#googleMap {
+	height: 350px;
+	width: 100%;
+	border: 1px solid;
+}
+
+/* .controls {
+	border: 1px solid transparent;
+	border-radius: 2px 0 0 2px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	height: 32px;
+	outline: none;
+}
+
+#pac-input-start,#pac-input-end {
+	background-color: #fff;
+	font-size: 15px;
+	font-weight: 300;
+	padding-left: 8pt;
+	text-overflow: ellipsis;
+	width: 100%;
+	border: 1px solid gray;
+} */
+
+#pac-input:focus {
+	/* border-color: #4d90fe; */
+}
